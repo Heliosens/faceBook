@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Face Book</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b3c591f1b4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -18,12 +19,16 @@
                 </div>
                 <div id="choice">
                     <div id="profile">
-                        <img src="imgProfil.png" alt="image de mon profil">
-                        <span>Sylvie</span>
+                        <div>
+                            <img src="imgProfil.png" alt="image de mon profil">
+                            <span>Sylvie</span>
+                        </div>
                     </div>
                     <div id="add">
                         <div>
-                            <i class="fas fa-plus"></i>
+                            <div id="round">
+                                <i class="fas fa-plus"></i>
+                            </div>
                         </div>
                         <p>Ajouter un compte</p>
                     </div>
@@ -33,12 +38,21 @@
         <section id="form">
             <div>
                 <form action="#" method="post">
-                    <input type="email" placeholder="Adresse e-mail ou numéro de tél.">
-                    <input type="password" placeholder="Mot de passe">
-                    <button type="submit">Se connecter</button>
-                    <p>Mot de passe ?</p>
+                    <div id="mail">
+                        <input type="email" placeholder="Adresse e-mail ou numéro de tél.">
+                    </div>
+                    <div id="pass">
+                        <input type="password" placeholder="Mot de passe">
+                    </div>
+                    <div>
+                        <button id="blue" type="submit">Se connecter</button>
+                    </div>
+                    <p>Mot de passe oublié ?</p>
+                    <div>
+                        <button id="green" type="submit">Créer nouveau compte</button>
+                    </div>
                 </form>
-                <button type="submit">Créer nouveau compte</button>
+
             </div>
             <div>
                 <span>Créer une page</span> pour une célébrité, une marque ou une entreprise.
@@ -94,4 +108,5 @@
             <span>Facebook © 2021</span>
         </div>
     </footer>
+</body>
 </html>

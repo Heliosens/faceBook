@@ -7,12 +7,15 @@
 html {
     font-size: 62.5%;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    text-align: center;
 }
 
 body {
     width: 100%;
     background: rgb(240 242 245);
+}
+
+main {
+    padding: 4rem;
 }
 
 #logo {
@@ -26,10 +29,6 @@ body {
 main {
     width: 90%;
     margin: auto;
-}
-
-section {
-    padding: 0 10rem;
 }
 
 #connect {
@@ -50,35 +49,103 @@ h1 + p {
     color: grey;
 }
 
-#choice div {
-    background: white;
-    border: 1px grey solid;
-}
-
 .padd {
     padding: 1rem 0;
+    text-align: left;
 }
 
 #profile {
-    width: 49.5%;
+    width: 13rem;
     display: inline-block;
 }
 
 #add {
-    width: 49.5%;
+    width: 13rem;
     display: inline-block;
     vertical-align: top;
+    border: 1px grey solid;
 }
 
-#add div {
-    height: 15rem;
+#add > div {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 #profile img {
-    width: 15rem;
+    width: 13rem;
 }
 
 #profile span {
     display: block;
+    padding: 1rem;
+    text-align: center;
+    background: white;
 }
 
+#round {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: blue;
+    padding-top: .5rem;
+    margin: auto;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#add p {
+    background: white;
+    color: blue;
+    text-align: center;
+    padding: 1rem;
+}
+
+form {
+    text-align: center;
+    background: white;
+    padding: 1rem 0;
+    width: 28rem;
+}
+
+form div {
+    margin: .5rem;
+}
+
+form p {
+    padding: 1rem 0;
+}
+
+input {
+    height: 3rem;
+    width: 26rem;
+}
+
+#blue, #green {
+    padding: 0.8rem;
+    border-radius: 5px;
+    color: white;
+}
+
+#blue {
+    width: 26rem;
+    background: blue;
+}
+
+#green {
+    width: 20rem;
+    background: green;
+}
+
+#form div:last-child{
+    padding: 2rem;
+    background: green;
+}
+
+#form span {
+    font-weight: bold;
+}
+
+form div:last-child {
+    border-top: grey 1px solid;
+}
