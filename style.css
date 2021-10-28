@@ -12,7 +12,7 @@ html {
 
 body {
     width: 100%;
-    background: #ffe4e8;
+    background: rgb(240 242 245);
 }
 
 #logo {
@@ -67,6 +67,11 @@ h1 + p {
 #add {
     width: 49.5%;
     display: inline-block;
+    vertical-align: top;
+}
+
+#add div {
+    height: 15rem;
 }
 
 #profile img {
@@ -76,3 +81,4 @@ h1 + p {
 #profile span {
     display: block;
 }
+
