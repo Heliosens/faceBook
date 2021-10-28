@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+body {
+    width: 100%;
+    background: #ffe4e8;
+}
+
+#logo {
+    padding: 1rem 0;
+}
+
+#logo img {
+    width: 15rem;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    padding: 0 10rem;
+}
+
+#connect {
+    display: inline-block;
+    width: 49.5%;
+}
+
+#form {
+    display: inline-block;
+    width: 49.5%;
+}
+
+h1 {
+    padding: .5rem 0;
+}
+
+h1 + p {
+    color: grey;
+}
+
+#choice div {
+    background: white;
+    border: 1px grey solid;
+}
+
+.padd {
+    padding: 1rem 0;
+}
+
+#profile {
+    width: 49.5%;
+    display: inline-block;
+}
+
+#add {
+    width: 49.5%;
+    display: inline-block;
+}
+
+#profile img {
+    width: 15rem;
+}
+
+#profile span {
+    display: block;
+}
