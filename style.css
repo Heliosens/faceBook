@@ -12,10 +12,7 @@ html {
 body {
     width: 100%;
     background: rgb(240 242 245);
-}
-
-main {
-    padding: 4rem;
+    font-size: 1.5rem;
 }
 
 #logo {
@@ -23,22 +20,22 @@ main {
 }
 
 #logo img {
-    width: 15rem;
+    width: 16rem;
 }
 
 main {
-    width: 90%;
+    width: 80%;
     margin: auto;
+    padding: 8rem;
+}
+
+section {
+    display: inline-block;
+    width: 49.5%;
 }
 
 #connect {
-    display: inline-block;
-    width: 49.5%;
-}
-
-#form {
-    display: inline-block;
-    width: 49.5%;
+    margin-right: 5rem;
 }
 
 h1 {
@@ -55,31 +52,39 @@ h1 + p {
 }
 
 #profile {
-    width: 13rem;
     display: inline-block;
+    margin-right: 1rem;
+}
+
+#profile div {
+    border: 1px grey solid;
+    border-radius: 1rem;
+    background: white;
 }
 
 #add {
-    width: 13rem;
+    width: 16rem;
     display: inline-block;
     vertical-align: top;
     border: 1px grey solid;
+    border-radius: 1rem;
+    background: white;
 }
 
 #add > div {
     padding-top: 5rem;
     padding-bottom: 5rem;
+    height: 15rem;
 }
 
 #profile img {
-    width: 13rem;
+    width: 15rem;
 }
 
 #profile span {
     display: block;
     padding: 1rem;
     text-align: center;
-    background: white;
 }
 
 #round {
@@ -95,7 +100,6 @@ h1 + p {
 }
 
 #add p {
-    background: white;
     color: blue;
     text-align: center;
     padding: 1rem;
@@ -103,9 +107,7 @@ h1 + p {
 
 form {
     text-align: center;
-    background: white;
     padding: 1rem 0;
-    width: 28rem;
 }
 
 form div {
@@ -117,18 +119,20 @@ form p {
 }
 
 input {
-    height: 3rem;
-    width: 26rem;
+    height: 5rem;
+}
+
+input, #blue {
+    width: 35rem;
 }
 
 #blue, #green {
-    padding: 0.8rem;
-    border-radius: 5px;
+    padding: 1rem;
+    border-radius: 8px;
     color: white;
 }
 
 #blue {
-    width: 26rem;
     background: blue;
 }
 
@@ -137,15 +141,20 @@ input {
     background: green;
 }
 
-#form div:last-child{
-    padding: 2rem;
-    background: green;
-}
-
 #form span {
     font-weight: bold;
 }
 
-form div:last-child {
+#form #bottom {
     border-top: grey 1px solid;
+    text-align: center;
+    padding: 1rem 0;
 }
+
+#form {
+    background: white;
+    width: 36rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+}
+
